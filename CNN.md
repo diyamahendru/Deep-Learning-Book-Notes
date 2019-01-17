@@ -1,5 +1,17 @@
+
+<head> <script> type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
+config=TeX-MML-AM_CHTML"
+</script>
+</head>
 # Convolutional Neural Networks
 
+## The convolution operation
+
+
+$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
+
+---
 CNNs or Convolutional Neural Networks are a kind of neural network that perform extremely good to a grid like topology like an Image, time-series data(1D Grid).
 The name implies that the neural network uses the convolution operation.
 I will here try explain the working of CNNs in a brief manner 
@@ -7,6 +19,8 @@ Convolutional neural networks are used because they leverage three important ide
 2.Parameter Sharing
 3.Equivariant Representations
 4.Working with imputs of different sizes
+
+
 
 ## Sparse Interactions
 In traditional Neural Networks matrix multiplication is used which means that every output unit necessarily interacts with the input units. However Convolutional Neural Netrorks have Sparse Interactions or Sparse connectivity/Weights. This is acomplished by making the size of the kernal smaller than the size of the input image.
@@ -33,3 +47,15 @@ This operation is important for many applications such as when variable sized in
 ## Structured Outputs
 CNNs can be used to output a high dimension data structured object rater than just to predict a class label for the input. Typically this object is a tensor S. Where Si, j, k is an individual element, where i, k are pixels belonging to the class i.
 
+## biological signinficance of neutal networks
+
+An early research on cats suggests that when showed specific patterns diffeerent parts of the cat brain/neurons fired up. This gives a property of shared parameters in a neural network.
+
+::: warning
+*here be dragons*
+:::
+
+<script type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
+config=TeX-MML-AM_CHTML"
+</script>
