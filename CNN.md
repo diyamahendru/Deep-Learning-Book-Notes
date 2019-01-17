@@ -18,7 +18,8 @@ It is possible for many applications to keep the size k magnitudes smaller than 
 Parameter Sharing/ Tied weights
 This refers to using of the same parameter for more than one time(kernals). In a traditional Neural network the weight is exactly used once when using the output of the layer. It is multiplied by one element of the input and is never used. In a CNN the kernel is used at every position of the input according to the design of the network(Padding, Strides, etc). This suggests that rather than learning different parameters for a seperate location, we can learn only a set of values. This does not affect the runtime of the network but it does reduce the storage requirments of the network.
 As the size (kXm) is much smaller than the size of the image thus convolution is much faster(efficient) than the standard matrix multiplication in terms of memory requirments.
-Equivariant Representations TODO
+
+## Equivariant Representations TODO
 ### The Pooling operation
 A typical CNN layer consists of three stages:
 ## Input -> Convolution -> Non Linearity -> Pooling -> Next stage
