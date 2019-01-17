@@ -1,15 +1,9 @@
 
-<head> <script> type="text/javascript" async
-src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
-config=TeX-MML-AM_CHTML"
-</script>
-</head>
 # Convolutional Neural Networks
 
 ## The convolution operation
 
 
-$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
 
 ---
 CNNs or Convolutional Neural Networks are a kind of neural network that perform extremely good to a grid like topology like an Image, time-series data(1D Grid).
@@ -51,11 +45,3 @@ CNNs can be used to output a high dimension data structured object rater than ju
 
 An early research on cats suggests that when showed specific patterns diffeerent parts of the cat brain/neurons fired up. This gives a property of shared parameters in a neural network.
 
-::: warning
-*here be dragons*
-:::
-
-<script type="text/javascript" async
-src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
-config=TeX-MML-AM_CHTML"
-</script>
